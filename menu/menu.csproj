@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6C3023E-3126-42AC-9CFF-722F07AA386D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>menu</RootNamespace>
+    <AssemblyName>menu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="car.Designer.cs">
+      <DependentUpon>car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="list.Designer.cs">
+      <DependentUpon>list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pay.Designer.cs">
+      <DependentUpon>pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="car.resx">
+      <DependentUpon>car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list.resx">
+      <DependentUpon>list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pay.resx">
+      <DependentUpon>pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a9ac365e064a3a1b456fabfe151vtn35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a6bf334de6c382bc39a8f929761vtn55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bundesarchiv_Bild_183-R99621,_Heinrich_Himmler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chiang_Kai-shek_Colour.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\De_Gaulle-OWI_%28cropped%29-%28c%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FDR_1944_Color_Portrait_%28cropped%29%28b%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hermann_Göring_-_Röhr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Joseph_Stalin_official_portrait.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mao_Tse_Tung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zhukov-LIFE-1944-1945.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\溥仪.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e8229eac205baaea04c257522c1vtn65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ee0e5afd2fc7c82c5c7985c5a1tw6r5.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
