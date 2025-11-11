@@ -19,6 +19,7 @@ namespace menu
             InitializeComponent();
         }
         public static int[] buynum = new int[8];
+        public static int money = 0; 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
@@ -76,6 +77,7 @@ namespace menu
         private void call(string reason)
         {
             list list = new list();
+            this.Hide();
             list.ShowDialog();
 
 
@@ -96,41 +98,47 @@ namespace menu
             if (list.picnum == 1) 
             {
                 buynum[0] += int.Parse(textBox1.Text);
+                money+=19370707;//盧溝橋
 
             }
             if (list.picnum == 2)
             {
                 buynum[1] += int.Parse(textBox1.Text);
-
+                money += 19390901;//希姆萊計畫執行日
             }
             if (list.picnum == 3)
             {
                 buynum[2] += int.Parse(textBox1.Text);
+                money += 19671017;//溥儀死亡時間
 
             }
             if (list.picnum == 4)
             {
                 buynum[3] += int.Parse(textBox1.Text);
+                money += 19450401;//貝當審判
 
             }
             if (list.picnum == 5)
             {
                 buynum[4] += int.Parse(textBox1.Text);
-
+                money += 19450601;//D-day
             }
             if (list.picnum == 6)
             {
                 buynum[5] += int.Parse(textBox1.Text);
+                money+= 19400618;//戴高樂發表「戰鬥到底」演說(流亡法國的總理
 
             }
             if (list.picnum == 7)
             {
                 buynum[6] += int.Parse(textBox1.Text);
+                money += 19460120;//戈林自殺日期
 
             }
             if (list.picnum == 8)
             {
                 buynum[7] += int.Parse(textBox1.Text);
+                money += 19530305;//史達林逝世日期
 
             }
             call("hi");

@@ -99,6 +99,7 @@ namespace menu
         private void button10_Click(object sender, EventArgs e)
         {
             pay pay  = new pay();
+            this.Hide();
             pay.ShowDialog();
             
         }

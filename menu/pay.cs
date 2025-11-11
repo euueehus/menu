@@ -68,5 +68,19 @@ namespace menu
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            list list = new list();
+            this.Hide();           
+            list.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            money money = new money(); 
+            this.Hide();
+            money.ShowDialog();
+        }
     }
 }

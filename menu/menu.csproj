@@ -64,6 +64,12 @@
     <Compile Include="list.Designer.cs">
       <DependentUpon>list.cs</DependentUpon>
     </Compile>
+    <Compile Include="money.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="money.Designer.cs">
+      <DependentUpon>money.cs</DependentUpon>
+    </Compile>
     <Compile Include="pay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="list.resx">
       <DependentUpon>list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="money.resx">
+      <DependentUpon>money.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pay.resx">
       <DependentUpon>pay.cs</DependentUpon>
@@ -148,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2ee0e5afd2fc7c82c5c7985c5a1tw6r5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1739873255361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1bd055de40944e9da21ba70efe2b211d.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

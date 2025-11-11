@@ -63,6 +63,26 @@ namespace menu.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap _1739873255361 {
+            get {
+                object obj = ResourceManager.GetObject("1739873255361", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _1bd055de40944e9da21ba70efe2b211d {
+            get {
+                object obj = ResourceManager.GetObject("1bd055de40944e9da21ba70efe2b211d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap _2ee0e5afd2fc7c82c5c7985c5a1tw6r5 {
             get {
                 object obj = ResourceManager.GetObject("2ee0e5afd2fc7c82c5c7985c5a1tw6r5", resourceCulture);

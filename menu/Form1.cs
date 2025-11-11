@@ -19,11 +19,11 @@ namespace menu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             list list = new list();
-            
-            list.ShowDialog();
-            
+            this.Hide();  //要用hideeeeeeee         
+            list.ShowDialog();    
+             
 
         }
 
