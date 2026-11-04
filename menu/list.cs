@@ -22,6 +22,7 @@ namespace menu
             car car = new car();
             picnum = 1;
             car.ShowDialog();
+            abc();
         }
             
         private void car1(string reason)
@@ -111,20 +112,28 @@ namespace menu
 
         private void button11_Click(object sender, EventArgs e)
         {
-            howmuch1.Visible = true;
+            howmuch2.Visible = true;
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            howmuch1.Visible = false;
+            howmuch2.Visible = false;
         }
         private void abc()
         {
             if (radioButton1.Checked)
             {
-
+                car.money+=1000;
             }
-            
+            if (radioButton2.Checked)
+            {
+                car.money += 2000;
+            }
+            if (radioButton3.Checked)
+            {
+                car.money += 100000;
+            }
+
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {

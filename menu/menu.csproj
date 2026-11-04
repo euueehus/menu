@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="allthings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="allthings.Designer.cs">
+      <DependentUpon>allthings.cs</DependentUpon>
+    </Compile>
     <Compile Include="car.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="allthings.resx">
+      <DependentUpon>allthings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="car.resx">
       <DependentUpon>car.cs</DependentUpon>
     </EmbeddedResource>
