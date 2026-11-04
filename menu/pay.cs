@@ -16,6 +16,7 @@ namespace menu
         {
             InitializeComponent();
         }
+        public static int moneyy = 0;
 
         private void pay_Load(object sender, EventArgs e)
         {
@@ -71,6 +72,7 @@ namespace menu
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             list list = new list();
             this.Hide();           
             list.ShowDialog();
@@ -78,9 +80,31 @@ namespace menu
 
         private void button2_Click(object sender, EventArgs e)
         {
+            abc();
             money money = new money(); 
             this.Hide();
             money.ShowDialog();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void abc()
+        {
+            if (checkBox1.Checked == true)
+            {
+                moneyy += 100;
+            }
+            if (checkBox2.Checked == true)
+            {
+                moneyy += 200;
+            }
         }
     }
 }

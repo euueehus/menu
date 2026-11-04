@@ -21,10 +21,12 @@ namespace menu
         {
            
         }
-
+        
+        public static int moneyyy = 0;
         private void money_Load(object sender, EventArgs e)
         {
-            label2.Text = "總金額為" + car.money + "元，歡迎下次光臨";
+            moneyyy = car.money+pay.moneyy;
+            label2.Text = "總金額為" + moneyyy + "元，歡迎下次光臨";
         }
 
         private void button1_Click(object sender, EventArgs e)

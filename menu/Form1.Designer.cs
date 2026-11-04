@@ -34,9 +34,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button1.Location = new System.Drawing.Point(382, 430);
+            this.button1.Location = new System.Drawing.Point(573, 645);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(223, 77);
+            this.button1.Size = new System.Drawing.Size(334, 116);
             this.button1.TabIndex = 0;
             this.button1.Text = "點我登入";
             this.button1.UseVisualStyleBackColor = false;
@@ -44,11 +45,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::menu.Properties.Resources.a9ac365e064a3a1b456fabfe151vtn35;
-            this.ClientSize = new System.Drawing.Size(996, 519);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1494, 778);
             this.Controls.Add(this.button1);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "main";
             this.ResumeLayout(false);

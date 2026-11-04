@@ -108,5 +108,27 @@ namespace menu
         {
             
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            howmuch1.Visible = true;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            howmuch1.Visible = false;
+        }
+        private void abc()
+        {
+            if (radioButton1.Checked)
+            {
+
+            }
+            
+        }
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
