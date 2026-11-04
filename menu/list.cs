@@ -17,6 +17,8 @@ namespace menu
             InitializeComponent();
         }
         public static int picnum = 0;
+        public static string selectedAddon = "";   
+        public static int addonPrice = 0;
         private void button1_Click(object sender, EventArgs e)
         {
             car car = new car();
@@ -123,15 +125,20 @@ namespace menu
         {
             if (radioButton1.Checked)
             {
-                car.money+=1000;
+                selectedAddon = "加購外套";
+                addonPrice = 1000;   
             }
             if (radioButton2.Checked)
             {
-                car.money += 2000;
+                selectedAddon = "軍靴";
+                addonPrice = 2000;
+                
             }
             if (radioButton3.Checked)
             {
-                car.money += 100000;
+                selectedAddon = "德國飛行員手錶";
+                addonPrice = 100000;
+                
             }
 
         }
