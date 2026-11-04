@@ -26,7 +26,7 @@ namespace menu
         private void money_Load(object sender, EventArgs e)
         {
             moneyyy = car.money+pay.moneyy;
-            label2.Text = "總金額為" + moneyyy + "元，歡迎下次光臨";
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace menu
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            allthings1.Visible = true;
         }
     }
 }

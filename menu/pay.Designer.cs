@@ -381,9 +381,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(972, 99);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(160, 22);
+            this.checkBox1.Size = new System.Drawing.Size(202, 22);
             this.checkBox1.TabIndex = 66;
-            this.checkBox1.Text = "加購超稀有軍帽";
+            this.checkBox1.Text = "加購超稀有軍帽100元";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -392,9 +392,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(972, 141);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(160, 22);
+            this.checkBox2.Size = new System.Drawing.Size(202, 22);
             this.checkBox2.TabIndex = 67;
-            this.checkBox2.Text = "加購還原版勳章";
+            this.checkBox2.Text = "加購還原版勳章200元";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 

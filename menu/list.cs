@@ -21,10 +21,12 @@ namespace menu
         public static int addonPrice = 0;
         private void button1_Click(object sender, EventArgs e)
         {
+            abc();
             car car = new car();
             picnum = 1;
             car.ShowDialog();
-            abc();
+            this.Close();
+            
         }
             
         private void car1(string reason)

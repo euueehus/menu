@@ -95,16 +95,22 @@ namespace menu
         {
 
         }
+        public static List<(string name, int price)> addonItems = new List<(string, int)>();
         private void abc()
         {
-            if (checkBox1.Checked == true)
+            addonItems.Clear();   
+
+            if (checkBox1.Checked)
             {
+                addonItems.Add(("超稀有軍帽", 100));   
                 moneyy += 100;
             }
-            if (checkBox2.Checked == true)
+            if (checkBox2.Checked)
             {
+                addonItems.Add(("還原版勳章", 200));   
                 moneyy += 200;
             }
+            
         }
     }
 }
