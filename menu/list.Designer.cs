@@ -59,8 +59,8 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.howmuch2 = new menu.howmuch();
             this.label10 = new System.Windows.Forms.Label();
+            this.howmuch2 = new menu.howmuch();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -424,14 +424,6 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // howmuch2
-            // 
-            this.howmuch2.Location = new System.Drawing.Point(-6, -10);
-            this.howmuch2.Name = "howmuch2";
-            this.howmuch2.Size = new System.Drawing.Size(428, 714);
-            this.howmuch2.TabIndex = 37;
-            this.howmuch2.Visible = false;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -440,6 +432,14 @@
             this.label10.Size = new System.Drawing.Size(152, 18);
             this.label10.TabIndex = 38;
             this.label10.Text = "限定商品僅能擇一";
+            // 
+            // howmuch2
+            // 
+            this.howmuch2.Location = new System.Drawing.Point(-6, -10);
+            this.howmuch2.Name = "howmuch2";
+            this.howmuch2.Size = new System.Drawing.Size(428, 714);
+            this.howmuch2.TabIndex = 37;
+            this.howmuch2.Visible = false;
             // 
             // list
             // 

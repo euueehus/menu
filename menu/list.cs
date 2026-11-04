@@ -103,8 +103,9 @@ namespace menu
 
         private void button10_Click(object sender, EventArgs e)
         {
+            abc();
             pay pay  = new pay();
-            this.Hide();
+            this.Close();
             pay.ShowDialog();
             
         }
